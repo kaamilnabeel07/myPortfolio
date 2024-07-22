@@ -1,0 +1,97 @@
+#aboutContainer{
+    width: 100%;
+    height: 700px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#aboutContainer #aboutHeading{
+    width: 100%;
+    height: 22%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    font-size: 20px;
+}
+#aboutContainer #aboutHeading h1{
+    padding-left: 2%;
+}
+#aboutContainer #aboutHeading #colChange{
+    color: #55E6A5;
+    font-size: 20px;
+}
+#aboutContainer #aboutContent{
+    width: 100%;
+    height: 78%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutContainer #aboutContent #aboutContentLeft,#aboutContentRight{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+#aboutContainer #aboutContent #aboutContentLeft{
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+}
+#aboutContainer #aboutContent #aboutContentLeft img{
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+    padding-left: 2%;
+}
+#aboutContainer #aboutContent #aboutContentLeft h1{
+    font-size: 25px;
+    padding-left: 2%;
+    color: white;
+}
+#aboutContainer #aboutContent #aboutContentLeft p{
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 2%;
+    color: #A2A2A2;
+}
+#aboutContainer #aboutContent #aboutContentRight{
+    justify-content: center;
+    align-items: center;
+}
+#aboutContainer #aboutContent #aboutContentRight img{
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+@media screen and (orientation:portrait) {
+    #aboutContainer #aboutHeading{
+        font-size: 12px;
+    }
+    #aboutContainer #aboutContent{
+        flex-direction: column-reverse;
+    }
+    #aboutContainer #aboutContent #aboutContentLeft,#aboutContentRight{
+        width: 100%;
+    }
+    #aboutContainer #aboutContent #aboutContentLeft img{
+        width: 10%;
+    }
+    #aboutContainer #aboutContent #aboutContentLeft h1{
+        font-size: 15px;
+    }
+    #aboutContainer #aboutContent #aboutContentLeft p{
+        font-size: 10px;
+    }
+    #aboutContainer #aboutContent #aboutContentRight img{
+        width: 50%;
+    }
+}

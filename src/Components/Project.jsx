@@ -19,9 +19,9 @@ const Project = () => {
                     <img src={project2} alt="img" />
                     <h1>Apple Page Clone</h1>
                 </a>
-                <a href='/' target="_blank" rel="noreferrer" id="projectCard" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
+                <a href='http://blueskyrealestateuae.com/' target="_blank" rel="noreferrer" id="projectCard" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">
                     <img src={project3} alt="img" />
-                    <h1>News App</h1>
+                    <h1>Freelance website</h1>
                 </a>
             </div>
         </div>

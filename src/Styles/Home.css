@@ -19,7 +19,7 @@
 #homeRight {
     width: 50%;
     height: 100%;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
 }
 
@@ -79,6 +79,7 @@
 }
 
 #homeContainer #homeRight {
+    /* background-color: red; */
     justify-content: center;
     align-items: center;
 }
@@ -109,5 +110,8 @@
     #homeContainer #homeLeft #homeLeftText button {
         width: 150px;
         height: 40px;
+    }
+    #homeContainer #homeRight img {
+        border-radius: 10%;
     }
 }

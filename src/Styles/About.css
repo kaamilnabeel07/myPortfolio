@@ -93,5 +93,6 @@
     }
     #aboutContainer #aboutContent #aboutContentRight img{
         width: 50%;
+        border-radius: 10%;
     }
 }

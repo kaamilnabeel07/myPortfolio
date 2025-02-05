@@ -9,7 +9,6 @@ const Nav = () => {
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
-                <h1>NABEEL</h1>
             </div>
             <div id="navAnchorTags">
                 <a href='#homeContainer' id='menu'>
